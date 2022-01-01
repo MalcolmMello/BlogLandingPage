@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Overpass';
+}
+
+header {
+    height: 100vh;
+    background-image: url('../images/bg-pattern-intro-desktop.svg');
+    background-color: hsl(356, 100%, 66%);
+    background-size: 2000px;
+    border-bottom-left-radius: 150px;
+    background-position: left;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header--area {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left--area {
+    display: flex;
+    align-items: center;
+}
+
+.left--area img {
+    width: 100px;
+    height: 40px;
+}
+
+.left--area ul {
+    display: flex;
+}
+
+.left--area li {
+    list-style: none;
+    margin-right: 40px;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.right--area {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.white {
+    color: hsl(356, 100%, 66%);
+    background-color: #FFF;
+}
+
+.border {
+    border: 1px solid #FFF;
+}
+
+.start {
+    display: flex;
+    padding-top: 80px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start h1 {
+    font-size: 60px;
+    margin: 0;
+    color: #FFF;
+}
+
+.start span {
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.button--area {
+    display: flex;
+    padding-top: 30px;
+}
+
+.designed {
+    padding-top: 40px;
+}
+
+.designed h1 {
+    color: hsl(208, 49%, 24%)
+}
+
+.designed--title{
+    text-align: center;
+}
+
+.designed--area {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+}
+
+.content--area {
+    padding: 150px 80px;
+}
+
+
+.content--area p{
+    margin-bottom: 60px;
+}
+
+.designed--img {
+    background-image: url('../images/illustration-editor-desktop.svg');
+    background-size: cover;
+    background-position: left;
+}
+
+.state {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+}
+
+.state--img {
+    background-image: url('../images/illustration-phones.svg');
+    background-size: cover;
+    background-position: left;
+}
+
+.content--area--state {
+    padding: 220px 80px;
+}
