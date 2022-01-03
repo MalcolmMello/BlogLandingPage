@@ -2,6 +2,19 @@
     box-sizing: border-box;
 }
 
+.scroll--button {
+    display: none;
+    height: 45px;
+    width: 45px;
+    background-color: hsl(355, 100%, 74%);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+}
+
 body {
     margin: 0px;
     padding: 0px;
