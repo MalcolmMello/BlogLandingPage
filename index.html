@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Blog</title>
@@ -14,16 +14,23 @@
             <div class="left--area">
                 <img src="./assets/images/logo.svg" alt="">
                 <nav>
-                    <ul>
-                        <li>Product</li>
-                        <li>Company</li>
-                        <li>Connect</li>
+                    <ul class="nav--list">
+                        <li class="menu--item">Product</li>
+                        <li class="menu--item">Company</li>
+                        <li class="menu--item">Connect</li>
+                        <a href="" class="button mobile--button">Login</a>
+                        <a href="" class="button redMobile--button">Sign Up</a>
                     </ul>
                 </nav>
             </div>
             <div class="right--area">
                 <a href="" class="button">Login</a>
                 <a href="" class="button white">Sign Up</a>
+                <div class="open-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
             </div>
         </div>
         <div class="container start">
@@ -38,6 +45,7 @@
     <section class="designed">
         <h1 class="designed--title">Designed for the future</h1>
         <div class="designed--area">
+            <div class="designed--img"></div>
             <div class="content--area">
                 <h1>Introducing an extensible editor</h1>
                 <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
@@ -49,7 +57,6 @@
                 <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
                     by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
             </div>
-            <div class="designed--img"></div>
         </div>
     </section>
     <section class="state">
